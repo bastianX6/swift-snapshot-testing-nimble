@@ -32,5 +32,10 @@ Pod::Spec.new do |s|
 
     s.frameworks = "XCTest"
 
-    s.source_files = ["SnapshotTesting-Nimble/Classes", "SnapshotTesting-Nimble/Classes/*.{h,m,swift}"]
+    s.source_files = [
+        "SnapshotTesting-Nimble/Classes", 
+        "SnapshotTesting-Nimble/Classes/*.{h,m,swift}", 
+        "SnapshotTesting-Nimble/Objc-Classes", 
+        "SnapshotTesting-Nimble/Objc-Classes/*.{h,m,swift}"
+    ]
 end
