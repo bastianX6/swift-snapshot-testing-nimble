@@ -16,7 +16,23 @@ workflows:
     - fastlane@2:
         inputs:
         - lane: scan --project Example/SPM/SnapshotTesting-Nimble-Example/SnapshotTesting-Nimble-Example.xcodeproj
+            --scheme SnapshotTesting-Nimble-Example
             --device "iPhone 11" --clean
+    - script@1:
+        inputs:
+        - content: |
+            #!/usr/bin/env bash
+            echo "Running macOS Tests"
+            set -o pipefail && xcodebuild test \
+              -project Example/SPM/SnapshotTesting-Nimble-Example/SnapshotTesting-Nimble-Example.xcodeproj \
+              -scheme ExampleMacOSApp | xcpretty
+
+            echo "Running tvOS Tests"
+            set -o pipefail && xcodebuild test \
+              -project Example/SPM/SnapshotTesting-Nimble-Example/SnapshotTesting-Nimble-Example.xcodeproj \
+              -scheme ExampleTvOSApp \
+              -destination 'platform=tvOS Simulator,name=Apple TV 4K (at 1080p),OS=14.3' | xcpretty
+
     - fastlane@2:
         inputs:
         - lane: scan --workspace Example/Cocoapods/SnapshotTesting-Nimble.xcworkspace
