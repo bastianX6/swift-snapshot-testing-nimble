@@ -36,6 +36,9 @@ class SnapshotTestingNimbleSpecSwiftUI: QuickSpec {
     }
 }
 
+/*
+    Code from: https://www.vadimbulavin.com/snapshot-testing-swiftui-views/
+*/
 extension Snapshotting where Value: SwiftUI.View, Format == UIImage {
     static func image(drawHierarchyInKeyWindow: Bool = false,
                       precision: Float = 1,
