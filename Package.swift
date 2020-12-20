@@ -12,7 +12,10 @@ let package = Package(
     products: [
         .library(
             name: "SnapshotTesting-Nimble",
-            targets: ["SnapshotTesting-Nimble"]
+            targets: [
+                "SnapshotTesting-Nimble",
+                "SnapshotTesting-Nimble-ObjC",
+            ]
         ),
     ],
     dependencies: [
@@ -29,6 +32,16 @@ let package = Package(
                 "Nimble",
             ],
             path: "SnapshotTesting-Nimble/Classes"
+        ),
+        .target(
+            name: "SnapshotTesting-Nimble-ObjC",
+            dependencies: [
+                "SnapshotTesting-Nimble",
+            ],
+            path: "SnapshotTesting-Nimble/Objc-Classes",
+            cSettings: [
+                .headerSearchPath("SnapshotTesting-Nimble/Objc-Classes"),
+            ]
         ),
     ]
 )

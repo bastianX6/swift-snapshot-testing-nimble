@@ -1,5 +1,10 @@
 #import "XCTestObservationCenter+CurrentTestCaseTracker.h"
-#import <SnapshotTesting_Nimble/SnapshotTesting_Nimble-Swift.h>
+
+#if SWIFT_PACKAGE
+    @import SnapshotTesting_Nimble;
+#else
+    #import <SnapshotTesting_Nimble/SnapshotTesting_Nimble-Swift.h>
+#endif
 
 @implementation XCTestObservationCenter (CurrentTestCaseTracker)
 
