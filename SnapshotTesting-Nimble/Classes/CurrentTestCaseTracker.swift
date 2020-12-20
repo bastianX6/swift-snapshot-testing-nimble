@@ -23,8 +23,8 @@ import XCTest
     }
 }
 
-extension XCTestCase {
-    public var sanitizedName: String? {
+public extension XCTestCase {
+    var sanitizedName: String? {
         let fullName = self.name
         let characterSet = CharacterSet(charactersIn: "[]+-")
         #if swift(>=4)

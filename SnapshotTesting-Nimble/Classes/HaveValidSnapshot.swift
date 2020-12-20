@@ -17,7 +17,7 @@ public func haveValidSnapshot<Value, Format>(
     file: StaticString = #file,
     testName: String = CurrentCaseTracker.shared.currentTestCase?.sanitizedName ?? #function,
     line: UInt = #line
-    ) -> Predicate<Value> {
+) -> Predicate<Value> {
     return Predicate { actualExpression in
         guard let value = try actualExpression.evaluate() else {
             return PredicateResult(status: .fail, message: .fail("have valid snapshot"))
@@ -32,8 +32,8 @@ public func haveValidSnapshot<Value, Format>(
             file: file,
             testName: testName,
             line: line
-            ) else {
-                return PredicateResult(bool: true, message: .fail("have valid snapshot"))
+        ) else {
+            return PredicateResult(bool: true, message: .fail("have valid snapshot"))
         }
 
         return PredicateResult(
