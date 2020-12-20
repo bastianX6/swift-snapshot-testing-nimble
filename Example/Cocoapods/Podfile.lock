@@ -25,7 +25,7 @@ SPEC CHECKSUMS:
   Nimble: 5f8a2fb6fa343a7242dfdd9d42f7267419d464b2
   Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
   SnapshotTesting: 8caa6661fea7c8019d5b46de77c16bab99c36c5c
-  SnapshotTesting-Nimble: db96bc99381cd76ff1edb96cb0c38cbe2e22f533
+  SnapshotTesting-Nimble: 2163a457ae06d8bad25babd846b240f30df19473
 
 PODFILE CHECKSUM: 02c8009cd826f089059f4dbbe715fdbfa3384bf1
 

@@ -36,6 +36,8 @@ Pod::Spec.new do |s|
         "SnapshotTesting-Nimble/Classes", 
         "SnapshotTesting-Nimble/Classes/*.{h,m,swift}", 
         "SnapshotTesting-Nimble/Objc-Classes", 
-        "SnapshotTesting-Nimble/Objc-Classes/*.{h,m,swift}"
+        "SnapshotTesting-Nimble/Objc-Classes/*.{h,m,swift}",
+        "SnapshotTesting-Nimble/Objc-Classes/include",
+        "SnapshotTesting-Nimble/Objc-Classes/include/*.{h,m,swift}"
     ]
 end
