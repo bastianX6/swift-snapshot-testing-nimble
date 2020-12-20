@@ -37,10 +37,15 @@ workflows:
         inputs:
         - lane: scan --workspace Example/Cocoapods/SnapshotTesting-Nimble.xcworkspace
             --device "iPhone 11" --clean
+
     - script@1:
         inputs:
         - content: |
             #!/usr/bin/env bash
-            set -e
-            set -x
+            echo "Running macOS Tests"
+            set -o pipefail && xcodebuild test \
+              -workspace Example/Cocoapods/SnapshotTesting-Nimble.xcworkspace \
+              -scheme ExampleMacOSApp | xcpretty
+
+            echo "Run pod lint"
             bundle exec pod lib lint --allow-warnings

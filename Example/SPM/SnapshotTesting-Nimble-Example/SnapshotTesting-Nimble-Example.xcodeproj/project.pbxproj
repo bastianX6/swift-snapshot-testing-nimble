@@ -17,16 +17,6 @@
 		0356ACA5258EBACC00B7E351 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 0356ACA4258EBACC00B7E351 /* SnapshotTesting */; };
 		0356ACB1258EBB5100B7E351 /* SnapshotTestingNimbleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0356ACB0258EBB5100B7E351 /* SnapshotTestingNimbleSpec.swift */; };
 		0356ACC1258EBDEE00B7E351 /* SnapshotTestingNimbleSpecSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0356ACC0258EBDEE00B7E351 /* SnapshotTestingNimbleSpecSwiftUI.swift */; };
-		039B42BA258FF1E80020E1FA /* ExampleMacOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B42B9258FF1E80020E1FA /* ExampleMacOSAppApp.swift */; };
-		039B42BC258FF1E80020E1FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B42BB258FF1E80020E1FA /* ContentView.swift */; };
-		039B42BE258FF1E80020E1FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039B42BD258FF1E80020E1FA /* Assets.xcassets */; };
-		039B42C1258FF1E80020E1FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039B42C0258FF1E80020E1FA /* Preview Assets.xcassets */; };
-		039B42CD258FF1E90020E1FA /* SnapshotTestingNimbleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B42CC258FF1E90020E1FA /* SnapshotTestingNimbleSpec.swift */; };
-		039B42F1258FF2290020E1FA /* SnapshotTesting-Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 039B42F0258FF2290020E1FA /* SnapshotTesting-Nimble */; };
-		039B42F3258FF2290020E1FA /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 039B42F2258FF2290020E1FA /* Nimble */; };
-		039B42F5258FF2290020E1FA /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 039B42F4258FF2290020E1FA /* Quick */; };
-		039B42F7258FF2290020E1FA /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 039B42F6258FF2290020E1FA /* SnapshotTesting */; };
-		039B4301258FF3EB0020E1FA /* SnapshotTestingNimbleSpecSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B4300258FF3EB0020E1FA /* SnapshotTestingNimbleSpecSwiftUI.swift */; };
 		039B430D258FF56F0020E1FA /* ExampleTvOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B430C258FF56F0020E1FA /* ExampleTvOSAppApp.swift */; };
 		039B430F258FF56F0020E1FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B430E258FF56F0020E1FA /* ContentView.swift */; };
 		039B4311258FF5700020E1FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039B4310258FF5700020E1FA /* Assets.xcassets */; };
@@ -37,6 +27,16 @@
 		039B4347258FF5960020E1FA /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 039B4346258FF5960020E1FA /* Quick */; };
 		039B4349258FF5960020E1FA /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 039B4348258FF5960020E1FA /* SnapshotTesting */; };
 		039B434B258FF5C70020E1FA /* SnapshotTestingNimbleSpecSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B434A258FF5C70020E1FA /* SnapshotTestingNimbleSpecSwiftUI.swift */; };
+		03FFD607259009B900D95347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFD606259009B900D95347 /* AppDelegate.swift */; };
+		03FFD609259009B900D95347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFD608259009B900D95347 /* ViewController.swift */; };
+		03FFD60B259009BA00D95347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FFD60A259009BA00D95347 /* Assets.xcassets */; };
+		03FFD60E259009BA00D95347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FFD60C259009BA00D95347 /* Main.storyboard */; };
+		03FFD65125900B0000D95347 /* SnapshotTestingNimbleSpecSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFD64F25900B0000D95347 /* SnapshotTestingNimbleSpecSwiftUI.swift */; };
+		03FFD65225900B0000D95347 /* SnapshotTestingNimbleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FFD65025900B0000D95347 /* SnapshotTestingNimbleSpec.swift */; };
+		03FFD65A25900B1300D95347 /* SnapshotTesting-Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 03FFD65925900B1300D95347 /* SnapshotTesting-Nimble */; };
+		03FFD65C25900B1300D95347 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 03FFD65B25900B1300D95347 /* Nimble */; };
+		03FFD65E25900B1300D95347 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 03FFD65D25900B1300D95347 /* Quick */; };
+		03FFD66025900B1300D95347 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 03FFD65F25900B1300D95347 /* SnapshotTesting */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,19 +47,19 @@
 			remoteGlobalIDString = 0356AC5C258EB94400B7E351;
 			remoteInfo = "SnapshotTesting-Nimble-Example";
 		};
-		039B42C9258FF1E90020E1FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0356AC55258EB94400B7E351 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 039B42B6258FF1E70020E1FA;
-			remoteInfo = ExampleMacOSApp;
-		};
 		039B431B258FF5710020E1FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0356AC55258EB94400B7E351 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 039B4309258FF56E0020E1FA;
 			remoteInfo = ExampleTvOSApp;
+		};
+		03FFD616259009BA00D95347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0356AC55258EB94400B7E351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FFD603259009B900D95347;
+			remoteInfo = ExampleMacOSApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -75,17 +75,6 @@
 		0356AC8E258EB98500B7E351 /* swift-snapshot-testing-nimble */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "swift-snapshot-testing-nimble"; path = ../../..; sourceTree = "<group>"; };
 		0356ACB0258EBB5100B7E351 /* SnapshotTestingNimbleSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingNimbleSpec.swift; sourceTree = "<group>"; };
 		0356ACC0258EBDEE00B7E351 /* SnapshotTestingNimbleSpecSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingNimbleSpecSwiftUI.swift; sourceTree = "<group>"; };
-		039B42B7258FF1E70020E1FA /* ExampleMacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleMacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		039B42B9258FF1E80020E1FA /* ExampleMacOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMacOSAppApp.swift; sourceTree = "<group>"; };
-		039B42BB258FF1E80020E1FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		039B42BD258FF1E80020E1FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		039B42C0258FF1E80020E1FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		039B42C2258FF1E80020E1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		039B42C3258FF1E80020E1FA /* ExampleMacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleMacOSApp.entitlements; sourceTree = "<group>"; };
-		039B42C8258FF1E90020E1FA /* ExampleMacOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleMacOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		039B42CC258FF1E90020E1FA /* SnapshotTestingNimbleSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingNimbleSpec.swift; sourceTree = "<group>"; };
-		039B42CE258FF1E90020E1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		039B4300258FF3EB0020E1FA /* SnapshotTestingNimbleSpecSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingNimbleSpecSwiftUI.swift; sourceTree = "<group>"; };
 		039B430A258FF56E0020E1FA /* ExampleTvOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleTvOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		039B430C258FF56F0020E1FA /* ExampleTvOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTvOSAppApp.swift; sourceTree = "<group>"; };
 		039B430E258FF56F0020E1FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +85,17 @@
 		039B431E258FF5710020E1FA /* SnapshotTestingNimbleSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingNimbleSpec.swift; sourceTree = "<group>"; };
 		039B4320258FF5710020E1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		039B434A258FF5C70020E1FA /* SnapshotTestingNimbleSpecSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingNimbleSpecSwiftUI.swift; sourceTree = "<group>"; };
+		03FFD604259009B900D95347 /* ExampleMacOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleMacOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FFD606259009B900D95347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03FFD608259009B900D95347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03FFD60A259009BA00D95347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03FFD60D259009BA00D95347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03FFD60F259009BA00D95347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FFD610259009BA00D95347 /* ExampleMacOSApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleMacOSApp.entitlements; sourceTree = "<group>"; };
+		03FFD615259009BA00D95347 /* ExampleMacOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleMacOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FFD61B259009BB00D95347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FFD64F25900B0000D95347 /* SnapshotTestingNimbleSpecSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotTestingNimbleSpecSwiftUI.swift; sourceTree = "<group>"; };
+		03FFD65025900B0000D95347 /* SnapshotTestingNimbleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotTestingNimbleSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,24 +117,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		039B42B4258FF1E70020E1FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039B42C5258FF1E90020E1FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				039B42F5258FF2290020E1FA /* Quick in Frameworks */,
-				039B42F7258FF2290020E1FA /* SnapshotTesting in Frameworks */,
-				039B42F1258FF2290020E1FA /* SnapshotTesting-Nimble in Frameworks */,
-				039B42F3258FF2290020E1FA /* Nimble in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		039B4307258FF56E0020E1FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,6 +135,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03FFD601259009B900D95347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFD612259009BA00D95347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FFD65E25900B1300D95347 /* Quick in Frameworks */,
+				03FFD66025900B1300D95347 /* SnapshotTesting in Frameworks */,
+				03FFD65A25900B1300D95347 /* SnapshotTesting-Nimble in Frameworks */,
+				03FFD65C25900B1300D95347 /* Nimble in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -162,10 +162,10 @@
 				0356AC8E258EB98500B7E351 /* swift-snapshot-testing-nimble */,
 				0356AC5F258EB94400B7E351 /* SnapshotTesting-Nimble-Example */,
 				0356AC71258EB94500B7E351 /* SnapshotTesting-Nimble-ExampleTests */,
-				039B42B8258FF1E70020E1FA /* ExampleMacOSApp */,
-				039B42CB258FF1E90020E1FA /* ExampleMacOSAppTests */,
 				039B430B258FF56E0020E1FA /* ExampleTvOSApp */,
 				039B431D258FF5710020E1FA /* ExampleTvOSAppTests */,
+				03FFD605259009B900D95347 /* ExampleMacOSApp */,
+				03FFD618259009BA00D95347 /* ExampleMacOSAppTests */,
 				0356AC5E258EB94400B7E351 /* Products */,
 				0356ACA0258EBAAA00B7E351 /* Frameworks */,
 			);
@@ -176,10 +176,10 @@
 			children = (
 				0356AC5D258EB94400B7E351 /* SnapshotTesting-Nimble-Example.app */,
 				0356AC6E258EB94500B7E351 /* SnapshotTesting-Nimble-ExampleTests.xctest */,
-				039B42B7258FF1E70020E1FA /* ExampleMacOSApp.app */,
-				039B42C8258FF1E90020E1FA /* ExampleMacOSAppTests.xctest */,
 				039B430A258FF56E0020E1FA /* ExampleTvOSApp.app */,
 				039B431A258FF5710020E1FA /* ExampleTvOSAppTests.xctest */,
+				03FFD604259009B900D95347 /* ExampleMacOSApp.app */,
+				03FFD615259009BA00D95347 /* ExampleMacOSAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,37 +221,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		039B42B8258FF1E70020E1FA /* ExampleMacOSApp */ = {
-			isa = PBXGroup;
-			children = (
-				039B42B9258FF1E80020E1FA /* ExampleMacOSAppApp.swift */,
-				039B42BB258FF1E80020E1FA /* ContentView.swift */,
-				039B42BD258FF1E80020E1FA /* Assets.xcassets */,
-				039B42C2258FF1E80020E1FA /* Info.plist */,
-				039B42C3258FF1E80020E1FA /* ExampleMacOSApp.entitlements */,
-				039B42BF258FF1E80020E1FA /* Preview Content */,
-			);
-			path = ExampleMacOSApp;
-			sourceTree = "<group>";
-		};
-		039B42BF258FF1E80020E1FA /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				039B42C0258FF1E80020E1FA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		039B42CB258FF1E90020E1FA /* ExampleMacOSAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				039B42CE258FF1E90020E1FA /* Info.plist */,
-				039B42CC258FF1E90020E1FA /* SnapshotTestingNimbleSpec.swift */,
-				039B4300258FF3EB0020E1FA /* SnapshotTestingNimbleSpecSwiftUI.swift */,
-			);
-			path = ExampleMacOSAppTests;
-			sourceTree = "<group>";
-		};
 		039B430B258FF56E0020E1FA /* ExampleTvOSApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +249,29 @@
 				039B434A258FF5C70020E1FA /* SnapshotTestingNimbleSpecSwiftUI.swift */,
 			);
 			path = ExampleTvOSAppTests;
+			sourceTree = "<group>";
+		};
+		03FFD605259009B900D95347 /* ExampleMacOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				03FFD606259009B900D95347 /* AppDelegate.swift */,
+				03FFD608259009B900D95347 /* ViewController.swift */,
+				03FFD60A259009BA00D95347 /* Assets.xcassets */,
+				03FFD60C259009BA00D95347 /* Main.storyboard */,
+				03FFD60F259009BA00D95347 /* Info.plist */,
+				03FFD610259009BA00D95347 /* ExampleMacOSApp.entitlements */,
+			);
+			path = ExampleMacOSApp;
+			sourceTree = "<group>";
+		};
+		03FFD618259009BA00D95347 /* ExampleMacOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				03FFD65025900B0000D95347 /* SnapshotTestingNimbleSpec.swift */,
+				03FFD64F25900B0000D95347 /* SnapshotTestingNimbleSpecSwiftUI.swift */,
+				03FFD61B259009BB00D95347 /* Info.plist */,
+			);
+			path = ExampleMacOSAppTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,47 +318,6 @@
 			productReference = 0356AC6E258EB94500B7E351 /* SnapshotTesting-Nimble-ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		039B42B6258FF1E70020E1FA /* ExampleMacOSApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 039B42E0258FF1E90020E1FA /* Build configuration list for PBXNativeTarget "ExampleMacOSApp" */;
-			buildPhases = (
-				039B42B3258FF1E70020E1FA /* Sources */,
-				039B42B4258FF1E70020E1FA /* Frameworks */,
-				039B42B5258FF1E70020E1FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ExampleMacOSApp;
-			productName = ExampleMacOSApp;
-			productReference = 039B42B7258FF1E70020E1FA /* ExampleMacOSApp.app */;
-			productType = "com.apple.product-type.application";
-		};
-		039B42C7258FF1E90020E1FA /* ExampleMacOSAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 039B42E1258FF1E90020E1FA /* Build configuration list for PBXNativeTarget "ExampleMacOSAppTests" */;
-			buildPhases = (
-				039B42C4258FF1E90020E1FA /* Sources */,
-				039B42C5258FF1E90020E1FA /* Frameworks */,
-				039B42C6258FF1E90020E1FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				039B42CA258FF1E90020E1FA /* PBXTargetDependency */,
-			);
-			name = ExampleMacOSAppTests;
-			packageProductDependencies = (
-				039B42F0258FF2290020E1FA /* SnapshotTesting-Nimble */,
-				039B42F2258FF2290020E1FA /* Nimble */,
-				039B42F4258FF2290020E1FA /* Quick */,
-				039B42F6258FF2290020E1FA /* SnapshotTesting */,
-			);
-			productName = ExampleMacOSAppTests;
-			productReference = 039B42C8258FF1E90020E1FA /* ExampleMacOSAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		039B4309258FF56E0020E1FA /* ExampleTvOSApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 039B432C258FF5710020E1FA /* Build configuration list for PBXNativeTarget "ExampleTvOSApp" */;
@@ -408,6 +359,47 @@
 			productReference = 039B431A258FF5710020E1FA /* ExampleTvOSAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		03FFD603259009B900D95347 /* ExampleMacOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FFD627259009BB00D95347 /* Build configuration list for PBXNativeTarget "ExampleMacOSApp" */;
+			buildPhases = (
+				03FFD600259009B900D95347 /* Sources */,
+				03FFD601259009B900D95347 /* Frameworks */,
+				03FFD602259009B900D95347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleMacOSApp;
+			productName = ExampleMacOSApp;
+			productReference = 03FFD604259009B900D95347 /* ExampleMacOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03FFD614259009BA00D95347 /* ExampleMacOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FFD62A259009BB00D95347 /* Build configuration list for PBXNativeTarget "ExampleMacOSAppTests" */;
+			buildPhases = (
+				03FFD611259009BA00D95347 /* Sources */,
+				03FFD612259009BA00D95347 /* Frameworks */,
+				03FFD613259009BA00D95347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FFD617259009BA00D95347 /* PBXTargetDependency */,
+			);
+			name = ExampleMacOSAppTests;
+			packageProductDependencies = (
+				03FFD65925900B1300D95347 /* SnapshotTesting-Nimble */,
+				03FFD65B25900B1300D95347 /* Nimble */,
+				03FFD65D25900B1300D95347 /* Quick */,
+				03FFD65F25900B1300D95347 /* SnapshotTesting */,
+			);
+			productName = ExampleMacOSAppTests;
+			productReference = 03FFD615259009BA00D95347 /* ExampleMacOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -424,19 +416,20 @@
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = 0356AC5C258EB94400B7E351;
 					};
-					039B42B6258FF1E70020E1FA = {
-						CreatedOnToolsVersion = 12.3;
-					};
-					039B42C7258FF1E90020E1FA = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 039B42B6258FF1E70020E1FA;
-					};
 					039B4309258FF56E0020E1FA = {
 						CreatedOnToolsVersion = 12.3;
 					};
 					039B4319258FF5710020E1FA = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = 039B4309258FF56E0020E1FA;
+					};
+					03FFD603259009B900D95347 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					03FFD614259009BA00D95347 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+						TestTargetID = 03FFD603259009B900D95347;
 					};
 				};
 			};
@@ -460,10 +453,10 @@
 			targets = (
 				0356AC5C258EB94400B7E351 /* SnapshotTesting-Nimble-Example */,
 				0356AC6D258EB94500B7E351 /* SnapshotTesting-Nimble-ExampleTests */,
-				039B42B6258FF1E70020E1FA /* ExampleMacOSApp */,
-				039B42C7258FF1E90020E1FA /* ExampleMacOSAppTests */,
 				039B4309258FF56E0020E1FA /* ExampleTvOSApp */,
 				039B4319258FF5710020E1FA /* ExampleTvOSAppTests */,
+				03FFD603259009B900D95347 /* ExampleMacOSApp */,
+				03FFD614259009BA00D95347 /* ExampleMacOSAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -485,22 +478,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		039B42B5258FF1E70020E1FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				039B42C1258FF1E80020E1FA /* Preview Assets.xcassets in Resources */,
-				039B42BE258FF1E80020E1FA /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039B42C6258FF1E90020E1FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		039B4308258FF56E0020E1FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -511,6 +488,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		039B4318258FF5710020E1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFD602259009B900D95347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FFD60B259009BA00D95347 /* Assets.xcassets in Resources */,
+				03FFD60E259009BA00D95347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFD613259009BA00D95347 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -538,24 +531,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		039B42B3258FF1E70020E1FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				039B42BC258FF1E80020E1FA /* ContentView.swift in Sources */,
-				039B42BA258FF1E80020E1FA /* ExampleMacOSAppApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039B42C4258FF1E90020E1FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				039B4301258FF3EB0020E1FA /* SnapshotTestingNimbleSpecSwiftUI.swift in Sources */,
-				039B42CD258FF1E90020E1FA /* SnapshotTestingNimbleSpec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		039B4306258FF56E0020E1FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -574,6 +549,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		03FFD600259009B900D95347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FFD609259009B900D95347 /* ViewController.swift in Sources */,
+				03FFD607259009B900D95347 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FFD611259009BA00D95347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FFD65225900B0000D95347 /* SnapshotTestingNimbleSpec.swift in Sources */,
+				03FFD65125900B0000D95347 /* SnapshotTestingNimbleSpecSwiftUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -582,17 +575,28 @@
 			target = 0356AC5C258EB94400B7E351 /* SnapshotTesting-Nimble-Example */;
 			targetProxy = 0356AC6F258EB94500B7E351 /* PBXContainerItemProxy */;
 		};
-		039B42CA258FF1E90020E1FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 039B42B6258FF1E70020E1FA /* ExampleMacOSApp */;
-			targetProxy = 039B42C9258FF1E90020E1FA /* PBXContainerItemProxy */;
-		};
 		039B431C258FF5710020E1FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 039B4309258FF56E0020E1FA /* ExampleTvOSApp */;
 			targetProxy = 039B431B258FF5710020E1FA /* PBXContainerItemProxy */;
 		};
+		03FFD617259009BA00D95347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FFD603259009B900D95347 /* ExampleMacOSApp */;
+			targetProxy = 03FFD616259009BA00D95347 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03FFD60C259009BA00D95347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FFD60D259009BA00D95347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0356AC80258EB94500B7E351 /* Debug */ = {
@@ -799,102 +803,6 @@
 			};
 			name = Release;
 		};
-		039B42DA258FF1E90020E1FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ExampleMacOSApp/ExampleMacOSApp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ExampleMacOSApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 48L72N5ZP6;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ExampleMacOSApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.ExampleMacOSApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		039B42DB258FF1E90020E1FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ExampleMacOSApp/ExampleMacOSApp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"ExampleMacOSApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 48L72N5ZP6;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ExampleMacOSApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.ExampleMacOSApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		039B42DC258FF1E90020E1FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 48L72N5ZP6;
-				INFOPLIST_FILE = ExampleMacOSAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.ExampleMacOSAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleMacOSApp.app/Contents/MacOS/ExampleMacOSApp";
-			};
-			name = Debug;
-		};
-		039B42DD258FF1E90020E1FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 48L72N5ZP6;
-				INFOPLIST_FILE = ExampleMacOSAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
-				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.ExampleMacOSAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleMacOSApp.app/Contents/MacOS/ExampleMacOSApp";
-			};
-			name = Release;
-		};
 		039B432D258FF5710020E1FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -987,6 +895,105 @@
 			};
 			name = Release;
 		};
+		03FFD628259009BB00D95347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExampleMacOSApp/ExampleMacOSApp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48L72N5ZP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ExampleMacOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.ExampleMacOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		03FFD629259009BB00D95347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExampleMacOSApp/ExampleMacOSApp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48L72N5ZP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ExampleMacOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.ExampleMacOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		03FFD62B259009BB00D95347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48L72N5ZP6;
+				INFOPLIST_FILE = ExampleMacOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.ExampleMacOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleMacOSApp.app/Contents/MacOS/ExampleMacOSApp";
+			};
+			name = Debug;
+		};
+		03FFD62C259009BB00D95347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 48L72N5ZP6;
+				INFOPLIST_FILE = ExampleMacOSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = bastianx6.ExampleMacOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleMacOSApp.app/Contents/MacOS/ExampleMacOSApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1017,24 +1024,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		039B42E0258FF1E90020E1FA /* Build configuration list for PBXNativeTarget "ExampleMacOSApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				039B42DA258FF1E90020E1FA /* Debug */,
-				039B42DB258FF1E90020E1FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		039B42E1258FF1E90020E1FA /* Build configuration list for PBXNativeTarget "ExampleMacOSAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				039B42DC258FF1E90020E1FA /* Debug */,
-				039B42DD258FF1E90020E1FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		039B432C258FF5710020E1FA /* Build configuration list for PBXNativeTarget "ExampleTvOSApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1049,6 +1038,24 @@
 			buildConfigurations = (
 				039B4330258FF5710020E1FA /* Debug */,
 				039B4331258FF5710020E1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FFD627259009BB00D95347 /* Build configuration list for PBXNativeTarget "ExampleMacOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FFD628259009BB00D95347 /* Debug */,
+				03FFD629259009BB00D95347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FFD62A259009BB00D95347 /* Build configuration list for PBXNativeTarget "ExampleMacOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FFD62B259009BB00D95347 /* Debug */,
+				03FFD62C259009BB00D95347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1102,25 +1109,6 @@
 			package = 0356ACA3258EBACC00B7E351 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
 		};
-		039B42F0258FF2290020E1FA /* SnapshotTesting-Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "SnapshotTesting-Nimble";
-		};
-		039B42F2258FF2290020E1FA /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0356AC92258EBA2A00B7E351 /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
-		};
-		039B42F4258FF2290020E1FA /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0356AC98258EBA6200B7E351 /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		039B42F6258FF2290020E1FA /* SnapshotTesting */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0356ACA3258EBACC00B7E351 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
-			productName = SnapshotTesting;
-		};
 		039B4342258FF5960020E1FA /* SnapshotTesting-Nimble */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "SnapshotTesting-Nimble";
@@ -1136,6 +1124,25 @@
 			productName = Quick;
 		};
 		039B4348258FF5960020E1FA /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0356ACA3258EBACC00B7E351 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		03FFD65925900B1300D95347 /* SnapshotTesting-Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "SnapshotTesting-Nimble";
+		};
+		03FFD65B25900B1300D95347 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0356AC92258EBA2A00B7E351 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		03FFD65D25900B1300D95347 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0356AC98258EBA6200B7E351 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		03FFD65F25900B1300D95347 /* SnapshotTesting */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0356ACA3258EBACC00B7E351 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;

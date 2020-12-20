@@ -1,13 +1,24 @@
 use_frameworks!
-platform :ios, '10.0'
+
+def testing_pods
+  pod 'SnapshotTesting-Nimble', :path => '../../'
+  pod 'Quick', '3.0.0'
+  pod 'Nimble', '9.0.0'
+end
 
 target 'SnapshotTesting-Nimble_Example' do
+  platform :ios, '10.0'
 
   target 'SnapshotTesting-Nimble_ExampleTests' do
     inherit! :search_paths
+    testing_pods
+  end
+end
 
-    pod 'SnapshotTesting-Nimble', :path => '../../'
-    pod 'Quick', '3.0.0'
-    pod 'Nimble', '8.1.1'
+target 'ExampleMacOSApp' do
+  platform :osx, '11.1'
+  target 'ExampleMacOSAppTests' do
+    inherit! :search_paths
+    testing_pods
   end
 end

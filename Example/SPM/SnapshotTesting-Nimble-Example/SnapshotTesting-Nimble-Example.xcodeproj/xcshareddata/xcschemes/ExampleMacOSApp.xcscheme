@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "039B42B6258FF1E70020E1FA"
+               BlueprintIdentifier = "03FFD603259009B900D95347"
                BuildableName = "ExampleMacOSApp.app"
                BlueprintName = "ExampleMacOSApp"
                ReferencedContainer = "container:SnapshotTesting-Nimble-Example.xcodeproj">
@@ -32,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "039B42C7258FF1E90020E1FA"
+               BlueprintIdentifier = "03FFD614259009BA00D95347"
                BuildableName = "ExampleMacOSAppTests.xctest"
                BlueprintName = "ExampleMacOSAppTests"
+               ReferencedContainer = "container:SnapshotTesting-Nimble-Example.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "03FFD61F259009BB00D95347"
+               BuildableName = "ExampleMacOSAppUITests.xctest"
+               BlueprintName = "ExampleMacOSAppUITests"
                ReferencedContainer = "container:SnapshotTesting-Nimble-Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -54,7 +64,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "039B42B6258FF1E70020E1FA"
+            BlueprintIdentifier = "03FFD603259009B900D95347"
             BuildableName = "ExampleMacOSApp.app"
             BlueprintName = "ExampleMacOSApp"
             ReferencedContainer = "container:SnapshotTesting-Nimble-Example.xcodeproj">
@@ -71,7 +81,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "039B42B6258FF1E70020E1FA"
+            BlueprintIdentifier = "03FFD603259009B900D95347"
             BuildableName = "ExampleMacOSApp.app"
             BlueprintName = "ExampleMacOSApp"
             ReferencedContainer = "container:SnapshotTesting-Nimble-Example.xcodeproj">
