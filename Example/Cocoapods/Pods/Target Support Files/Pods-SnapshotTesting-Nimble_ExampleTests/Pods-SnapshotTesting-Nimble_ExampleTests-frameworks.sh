@@ -175,16 +175,16 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Quick/Quick.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SnapshotTesting/SnapshotTesting.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SnapshotTesting-Nimble/SnapshotTesting_Nimble.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Quick-iOS/Quick.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapshotTesting-iOS/SnapshotTesting.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapshotTesting-Nimble-iOS/SnapshotTesting_Nimble.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Quick/Quick.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SnapshotTesting/SnapshotTesting.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SnapshotTesting-Nimble/SnapshotTesting_Nimble.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Quick-iOS/Quick.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapshotTesting-iOS/SnapshotTesting.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapshotTesting-Nimble-iOS/SnapshotTesting_Nimble.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
